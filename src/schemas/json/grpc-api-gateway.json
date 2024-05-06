@@ -1770,7 +1770,7 @@
         },
         {
           "properties": {
-            "schema": {"$ref": "#/definitions/meshapi.gateway.openapi.Schema.SchemaList"}
+            "list": {"$ref": "#/definitions/meshapi.gateway.openapi.Schema.SchemaList"}
           },
           "required": ["list"]
         }
