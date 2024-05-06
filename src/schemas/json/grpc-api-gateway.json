@@ -62,21 +62,39 @@
       "type": "object",
       "oneOf": [
         {
+          "properties": {
+            "get": {"type": "string"}
+          },
           "required": ["get"]
         },
         {
+          "properties": {
+            "put": {"type": "string"}
+          },
           "required": ["put"]
         },
         {
+          "properties": {
+            "post": {"type": "string"}
+          },
           "required": ["post"]
         },
         {
+          "properties": {
+            "delete": {"type": "string"}
+          },
           "required": ["delete"]
         },
         {
+          "properties": {
+            "patch": {"type": "string"}
+          },
           "required": ["patch"]
         },
         {
+          "properties": {
+            "custom": {"$ref": "#/definitions/meshapi.gateway.CustomPattern"}
+          },
           "required": ["custom"]
         }
       ],
@@ -159,21 +177,39 @@
       "type": "object",
       "oneOf": [
         {
+          "properties": {
+            "get": {"type": "string"}
+          },
           "required": ["get"]
         },
         {
+          "properties": {
+            "put": {"type": "string"}
+          },
           "required": ["put"]
         },
         {
+          "properties": {
+            "post": {"type": "string"}
+          },
           "required": ["post"]
         },
         {
+          "properties": {
+            "delete": {"type": "string"}
+          },
           "required": ["delete"]
         },
         {
+          "properties": {
+            "patch": {"type": "string"}
+          },
           "required": ["patch"]
         },
         {
+          "properties": {
+            "custom": {"$ref": "#/definitions/meshapi.gateway.CustomPattern"}
+          },
           "required": ["custom"]
         }
       ],
@@ -1063,9 +1099,15 @@
       "type": "object",
       "oneOf": [
         {
+          "properties": {
+            "operation_ref": {"type": "string"}
+          },
           "required": ["operation_ref"]
         },
         {
+          "properties": {
+            "operation_id": {"type": "string"}
+          },
           "required": ["operation_id"]
         }
       ],
@@ -1737,9 +1779,15 @@
       "type": "object",
       "oneOf": [
         {
+          "properties": {
+            "schema": {"$ref": "#/definitions/meshapi.gateway.openapi.Schema"}
+          },
           "required": ["schema"]
         },
         {
+          "properties": {
+            "schema": {"$ref": "#/definitions/meshapi.gateway.openapi.Schema.SchemaList"}
+          },
           "required": ["list"]
         }
       ],
