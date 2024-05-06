@@ -159,7 +159,6 @@
           "items": {
             "$ref": "#/definitions/meshapi.gateway.AdditionalEndpointBinding"
           },
-          "additionalProperties": false,
           "type": "array",
           "description": "additional_bindings holds additional bindings for the same gRPC service method."
         },
