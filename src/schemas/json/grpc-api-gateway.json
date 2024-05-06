@@ -62,37 +62,37 @@
       "oneOf": [
         {
           "properties": {
-            "get": {"type": "string"}
+            "get": { "type": "string" }
           },
           "required": ["get"]
         },
         {
           "properties": {
-            "put": {"type": "string"}
+            "put": { "type": "string" }
           },
           "required": ["put"]
         },
         {
           "properties": {
-            "post": {"type": "string"}
+            "post": { "type": "string" }
           },
           "required": ["post"]
         },
         {
           "properties": {
-            "delete": {"type": "string"}
+            "delete": { "type": "string" }
           },
           "required": ["delete"]
         },
         {
           "properties": {
-            "patch": {"type": "string"}
+            "patch": { "type": "string" }
           },
           "required": ["patch"]
         },
         {
           "properties": {
-            "custom": {"$ref": "#/definitions/meshapi.gateway.CustomPattern"}
+            "custom": { "$ref": "#/definitions/meshapi.gateway.CustomPattern" }
           },
           "required": ["custom"]
         }
@@ -175,37 +175,37 @@
       "oneOf": [
         {
           "properties": {
-            "get": {"type": "string"}
+            "get": { "type": "string" }
           },
           "required": ["get"]
         },
         {
           "properties": {
-            "put": {"type": "string"}
+            "put": { "type": "string" }
           },
           "required": ["put"]
         },
         {
           "properties": {
-            "post": {"type": "string"}
+            "post": { "type": "string" }
           },
           "required": ["post"]
         },
         {
           "properties": {
-            "delete": {"type": "string"}
+            "delete": { "type": "string" }
           },
           "required": ["delete"]
         },
         {
           "properties": {
-            "patch": {"type": "string"}
+            "patch": { "type": "string" }
           },
           "required": ["patch"]
         },
         {
           "properties": {
-            "custom": {"$ref": "#/definitions/meshapi.gateway.CustomPattern"}
+            "custom": { "$ref": "#/definitions/meshapi.gateway.CustomPattern" }
           },
           "required": ["custom"]
         }
@@ -1091,13 +1091,13 @@
       "oneOf": [
         {
           "properties": {
-            "operation_ref": {"type": "string"}
+            "operation_ref": { "type": "string" }
           },
           "required": ["operation_ref"]
         },
         {
           "properties": {
-            "operation_id": {"type": "string"}
+            "operation_id": { "type": "string" }
           },
           "required": ["operation_id"]
         }
@@ -1764,13 +1764,15 @@
       "oneOf": [
         {
           "properties": {
-            "schema": {"$ref": "#/definitions/meshapi.gateway.openapi.Schema"}
+            "schema": { "$ref": "#/definitions/meshapi.gateway.openapi.Schema" }
           },
           "required": ["schema"]
         },
         {
           "properties": {
-            "list": {"$ref": "#/definitions/meshapi.gateway.openapi.Schema.SchemaList"}
+            "list": {
+              "$ref": "#/definitions/meshapi.gateway.openapi.Schema.SchemaList"
+            }
           },
           "required": ["list"]
         }
