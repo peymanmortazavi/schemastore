@@ -186,7 +186,7 @@
           "items": {
             "$ref": "#/definitions/meshapi.gateway.EndpointBinding"
           },
-          "additionalProperties": false,
+          "additionalItems": false,
           "type": "array",
           "description": "endpoints hold a series of endpoint binding specs."
         }
